@@ -1,0 +1,15 @@
+.content {
+  display: grid;
+  grid-template-columns: 5em 5em 5em 5em 5em;
+  grid-template-rows: 5em 5em 5em 5em 5em;
+}
+.content :nth-child(2n+1) {
+  background-color: blue;
+}
+
+.color-plane {
+  background-color: aqua;
+  outline: black solid 1px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}/*# sourceMappingURL=zad_01.css.map */

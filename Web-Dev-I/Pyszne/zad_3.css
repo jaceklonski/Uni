@@ -1,0 +1,185 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+header {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #fb6100;
+}
+header .address {
+  flex: 0;
+  min-width: 15rem;
+}
+header .address div {
+  text-align: center;
+  padding: 0;
+  border-bottom: 2px solid white;
+}
+header button {
+  color: white;
+  border: none;
+  background: none;
+  font-size: 1.3rem;
+  margin-left: 4rem;
+}
+header div.logo {
+  font-size: 1.3rem;
+}
+header div.logo :nth-child(1) {
+  font-weight: 800;
+}
+header div {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.type-section {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f5f2;
+  border-bottom: 2px solid #d7d7d7;
+  padding-top: 1rem;
+}
+.type-section button.button-1 {
+  color: #fb6100;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #fb6100;
+}
+.type-section button {
+  border: none;
+  background: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.category-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 25%;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+.category-section button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+.category-section button.active {
+  background: #fb6100;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+.main-section {
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+}
+
+.left-main-section {
+  width: 30%;
+}
+.left-main-section div {
+  margin-bottom: 0.8rem;
+}
+.left-main-section div.header {
+  font-weight: 600;
+}
+
+.right-main-section {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.right-main-section .header {
+  padding-top: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  max-height: 1.6rem;
+}
+.right-main-section div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+div.search {
+  flex: 1;
+  flex-direction: row;
+  min-height: 2rem;
+}
+div.search #search {
+  flex: 1;
+}
+div.search button {
+  flex: 1;
+  max-width: 3rem;
+  background: none;
+  border: none;
+}
+
+div.item {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #d7d7d7;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  min-height: 9rem;
+}
+
+div.logo {
+  flex: 0;
+  width: 20;
+  height: 20;
+}
+div.logo div.name {
+  flex: 0;
+  border-radius: 1000px;
+  background-color: white;
+  color: #fb6100;
+  display: flex;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  top: 25%;
+  left: -50%;
+  transform: rotate(-15deg);
+  border: #d7d7d7 solid 2px;
+}
+
+div.pic {
+  background-color: aquamarine;
+  max-width: 15rem;
+}
+
+div.content {
+  display: flex;
+  flex-direction: row;
+}
+div.content div {
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+}
+
+div.info {
+  max-width: 20rem;
+}
+div.info div {
+  max-height: 2rem;
+}/*# sourceMappingURL=zad_3.css.map */

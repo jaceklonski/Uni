@@ -1,0 +1,4 @@
+div:nth-child(odd){ font-weight: bold;}
+div:first-child{color:blue}
+div:last-of-type{color:green}
+div:hover{font-size: 1.5em;}

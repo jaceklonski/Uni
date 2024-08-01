@@ -1,0 +1,17 @@
+.content > :nth-child(2) {
+    color:blue;
+}
+
+.content > :nth-child(2) > :first-child {
+    font-weight: bold; 
+    letter-spacing: 10px;
+}
+
+.content > :nth-child(2) > :nth-child(2) > :first-child {
+    color:red;
+    text-transform: uppercase;
+}
+
+.content > :nth-child(3) > :nth-child(2) > :nth-child(2) {
+    text-decoration: underline;
+}

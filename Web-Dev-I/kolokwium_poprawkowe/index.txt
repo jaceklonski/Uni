@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  Start <i class="fa-solid fa-magnifying-glass"></i> Icons Docs Plans Support Podcast
+  <i class="fa-solid fa-right-to-bracket"></i>
+
+  Get Started with Font Awesome
+  The easiest way to get icons on your website is with a Kit. It's your very own custom version of Font Awesome, all bundled up with only the icons, tools, and settings you need.
+
+  Enter your email to get started with a free Kit!
+  e.g. violet@freshsqueezed.org
+  Send Kit Embed Code
+
+  I agree to the Terms of Service and Privacy Policy.
+
+  Setup Font Awesome
+  After creating a Kit, copy your Kit's unique code into the <code>&lt;head&gt;</code> of your page.
+
+  Add Icons
+  Start placing icons in your HTML's <code>&lt;body&gt;</code> using our simple syntax.
+
+  Make it Awesome
+  It's time to rock and roll! Color, size, rotate, animate, & power transform icons with ease!
+
+  Other Ways to Use
+  No matter what tech you're using for your project, website, or app, we have the tools that work how and where you do.
+
+  <i class="fa-solid fa-key 3x"></i>
+  Getting Started
+  If you're new to Font Awesome, or just need a refresher. Here are some tips to get started.
+
+  <i class="fa-solid fa-window-maximize 3x"></i>
+  On Websites
+  You can add icons to your web projects with a little bit of code - it's super easy once you have a few of the basics under your belt.
+
+  <i class="fa-solid fa-laptop 3x"></i>
+  In Desktop Apps
+  Use icons in desktop design programs like Figma or Illustrator, or craft nice looking docs or slides - we've got you covered.
+</body>
+</html>

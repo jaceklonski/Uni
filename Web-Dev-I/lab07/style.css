@@ -1,0 +1,135 @@
+body {
+  background-color: #1c1e21;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: #242526;
+  justify-content: flex-start;
+  border-radius: 0.7em;
+}
+
+div.box.menu {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  margin: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.menu-item {
+  justify-content: space-around;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.buttons {
+  flex: 1;
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  background-color: #1c1e21;
+}
+
+.left {
+  margin-top: 1em;
+  width: 40%;
+  margin-right: 0.5em;
+}
+
+.right {
+  margin-top: 1em;
+  margin-left: 0.5em;
+  width: 60%;
+  background-color: #1c1e21;
+}
+.right .box {
+  padding-top: 0.3em;
+}
+.right .photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+.right .photo {
+  flex: 1;
+  border-radius: 0;
+  min-width: 10em;
+  min-height: 10em;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0.5em;
+}
+
+.photo {
+  height: 6.5em;
+  gap: 1em;
+  background-color: grey;
+  border-radius: 0.7em;
+}
+
+.box {
+  background-color: #242526;
+  padding: 1em;
+  padding-top: 1.5em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.7em;
+}
+
+.header {
+  display: flex;
+  width: 45%;
+  align-items: flex-end;
+  justify-items: baseline;
+}
+.header .name {
+  flex: 1;
+}
+.header .fas {
+  flex: 1;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: aliceblue;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,167 @@
+body {
+  background-color: #333;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-size: 0.875em;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  padding-bottom: 10rem;
+}
+
+header {
+  display: flex;
+  padding: 1.5rem;
+  box-shadow: 5px 0px 5px black;
+}
+
+.space {
+  flex: 1;
+}
+
+nav {
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+  justify-content: flex-end;
+  box-shadow: 0 5px 5px -5px black;
+  padding-left: 70%;
+}
+
+nav > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+nav > div h1 {
+  margin-bottom: 0;
+  padding: 0;
+}
+nav > div p {
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.right {
+  margin-top: 2rem;
+  flex: 1;
+  display: flex;
+  max-width: 27%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #454545;
+  min-height: 22rem;
+  height: 70%;
+}
+.right .avatar {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin-top: 1rem;
+}
+
+.omnie {
+  flex: 1;
+  height: 2rem;
+  margin: 0.2rem;
+}
+
+.obserwuj {
+  flex: 1;
+  height: 2rem;
+  margin: 0.3rem;
+}
+
+.left {
+  flex: 1;
+  max-width: 5rem;
+  width: 5%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 11rem;
+  margin-right: 1.5rem;
+}
+.left p {
+  flex: 1;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0.3rem;
+}
+
+.bio {
+  margin: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.center {
+  display: flex;
+  flex: 1;
+  max-width: 5rem;
+  flex-direction: column;
+  width: 5%;
+  padding-bottom: 11rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.center p {
+  flex: 1;
+}
+
+.display {
+  flex: 1;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.pic {
+  background-color: #d3d3d3;
+  height: 100%;
+  min-height: 30rem;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.wyswietlenia {
+  margin-top: 0.3rem;
+}
+
+.date {
+  background-color: #454545;
+  margin-top: 0;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 0;
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
+  min-width: 2rem;
+}/*# sourceMappingURL=style.css.map */

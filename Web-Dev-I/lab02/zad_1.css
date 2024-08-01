@@ -1,0 +1,23 @@
+h1{
+     text-align: center;
+     text-decoration: underline;
+      font-style: italic;}
+
+
+*p{
+    text-align: justify;}
+
+
+.strong{
+    font-weight: bold;}
+
+
+.second{
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    line-height: 40px;}
+
+
+.last{
+    font: size 1.5em;
+    color:red}

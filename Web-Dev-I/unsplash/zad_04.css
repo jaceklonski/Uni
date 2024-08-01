@@ -1,0 +1,118 @@
+body {
+  font-family: BlinkMacSystemFont, San Francisco, Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Segoe UI, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgb(118, 118, 118);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  gap: 20px;
+  padding: 1em;
+  align-items: center;
+}
+header #search {
+  border: 1px solid grey;
+}
+
+#search {
+  flex: 1;
+  padding: 1em;
+  border-radius: 0.7em;
+  border: 0;
+  color: grey;
+}
+
+nav {
+  display: flex;
+  gap: 2em;
+  padding: 1em;
+  padding-top: 0;
+}
+
+#search-section {
+  display: flex;
+  justify-content: center;
+  background-color: #07022d;
+  height: 30em;
+  align-items: center;
+  padding-left: 23%;
+  padding-right: 23%;
+}
+
+.search {
+  display: flex;
+  align-items: baseline;
+  background-color: white;
+  border-radius: 0.7em;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.first-column {
+  flex: 1;
+}
+
+.second-column {
+  flex: 1;
+}
+
+.third-column {
+  flex: 1;
+}
+
+.pic {
+  background-color: #e9e2d9;
+  margin: 1em;
+  margin-top: 2em;
+}
+
+.logo {
+  font-size: x-large;
+  font-weight: 900;
+  color: black;
+}
+
+.separator {
+  height: 2.2em;
+  width: 2px;
+  background-color: grey;
+}
+
+.header {
+  font-size: xx-large;
+  font-weight: 900;
+  color: white;
+  padding-bottom: 0.7em;
+}
+
+.content {
+  color: white;
+}
+.content div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+.content div span {
+  padding-right: 20%;
+  font-weight: 600;
+}
+
+div.trending span {
+  padding: 0;
+}
+
+button {
+  max-width: 10em;
+  border: none;
+  background-color: white;
+}/*# sourceMappingURL=zad_04.css.map */

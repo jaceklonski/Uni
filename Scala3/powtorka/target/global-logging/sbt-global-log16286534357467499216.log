@@ -1,0 +1,87 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.9 (Eclipse Adoptium Java 11.0.22)
+[debug] Load.defaultLoad until apply took 552.144905ms
+[debug]                 Load.loadUnit: plugins took 388.244017ms
+[debug]                 Load.loadUnit: defsScala took 4.261866ms
+[debug] [Loading] Scanning directory /home/jlonski/Scala/lonski-jacek/powtorka/project/project
+[debug]                   Load.loadUnit: mkEval took 27.565896ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/jlonski/Scala/lonski-jacek/powtorka/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 32.739881 ms
+[info] loading settings for project powtorka-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(powtorka-build-build) took 101.758515ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id powtorka-build-build, base: /home/jlonski/Scala/lonski-jacek/powtorka/project/project, plugins: List(<none>))) took 151.302547ms
+[debug] [Loading] Done in /home/jlonski/Scala/lonski-jacek/powtorka/project/project, returning: (powtorka-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 6835.771393ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 20.528852ms
+[debug]               Load.loadUnit(file:/home/jlonski/Scala/lonski-jacek/powtorka/project/project/, ...) took 7275.90551ms
+[debug]             Load.apply: load took 7601.322345ms
+[debug]             Load.apply: resolveProjects took 14.345137ms
+[debug]             Load.apply: finalTransforms took 229.636979ms
+[debug]             Load.apply: config.delegates took 18.84634ms
+[debug]             Load.apply: Def.make(settings)... took 809.717334ms
+[debug]             Load.apply: structureIndex took 230.038177ms
+[debug]             Load.apply: mkStreams took 3.826138ms
+[info] loading project definition from /home/jlonski/Scala/lonski-jacek/powtorka/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 13705.716816ms
+[debug]           Load.loadUnit: defsScala took 0.007872ms
+[debug] [Loading] Scanning directory /home/jlonski/Scala/lonski-jacek/powtorka/project
+[debug]             Load.loadUnit: mkEval took 0.716834ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/jlonski/Scala/lonski-jacek/powtorka/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.773143 ms
+[info] loading settings for project powtorka-build from metals.sbt ...
+[debug]               Load.resolveProject(powtorka-build) took 44.761957ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id powtorka-build, base: /home/jlonski/Scala/lonski-jacek/powtorka/project, plugins: List(<none>))) took 49.321994ms
+[debug] [Loading] Done in /home/jlonski/Scala/lonski-jacek/powtorka/project, returning: (powtorka-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 1282.766621ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.86661ms
+[debug]         Load.loadUnit(file:/home/jlonski/Scala/lonski-jacek/powtorka/project/, ...) took 14990.515775ms
+[debug]       Load.apply: load took 14993.246529ms
+[debug]       Load.apply: resolveProjects took 0.145729ms
+[debug]       Load.apply: finalTransforms took 34.819099ms
+[debug]       Load.apply: config.delegates took 0.856719ms
+[debug]       Load.apply: Def.make(settings)... took 203.390076ms
+[debug]       Load.apply: structureIndex took 58.857106ms
+[debug]       Load.apply: mkStreams took 0.007486ms
+[info] loading project definition from /home/jlonski/Scala/lonski-jacek/powtorka/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

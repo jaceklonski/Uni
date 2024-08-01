@@ -1,0 +1,16 @@
+{
+  "name": "dodatkowekol1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zad1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zad2": "nodemon src/zad2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.0"
+  }
+}

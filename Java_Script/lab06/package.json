@@ -1,0 +1,22 @@
+{
+  "name": "lab06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/zad01.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zad2": "nodemon src/zad02.js",
+    "zad3": "nodemon src/zad03.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

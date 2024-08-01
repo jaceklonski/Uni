@@ -1,0 +1,6 @@
+niedostateczny 3
+dostateczny 5
+dostateczny plus 7 
+dobry 4
+dobry plus 6
+bardzo dobry 4

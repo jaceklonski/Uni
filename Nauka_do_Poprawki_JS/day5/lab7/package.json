@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+
+  "scripts": {
+  "start": "nodemon src/zad1.js",
+  "eslint": "eslint '**/*.js'"
+}
+}

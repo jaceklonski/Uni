@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
+}

@@ -50,5 +50,4 @@ const fun = (tab) => {
         return a
     }, []))
 }
-
 fun(lista)
